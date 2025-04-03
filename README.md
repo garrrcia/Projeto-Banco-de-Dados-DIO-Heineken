@@ -8,7 +8,7 @@ Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE
 - Projeto conceitual: Modeloe ER(Entidade - Relacionamento)
 - Projeto lógico: Modelo Relacional
 
-### Diagrama conceitual de um projeto de e-commerce
+### Diagrama Entidade-Relacionamento conceitual de um projeto de e-commerce
 
 MySQLWorkbench --> Novo Diagrama --> Diagram EER--> Tabelas
 
@@ -25,40 +25,29 @@ MySQLWorkbench --> Novo Diagrama --> Diagram EER--> Tabelas
 
 ![image](https://github.com/user-attachments/assets/344e5cdc-5ab7-4f96-a05f-e5e24e0c6390)
 
-
-
-Produto:
+**Produto:**
 - Os produtos são vendidos por uma única plataforma online. Contudo, estes podem ter vendedores distintos (terceiros)
 - Cada produto possui um fornecedor
 - Um ou mais produtos podem compor um pedido
 
-Cliente:
+**Cliente:**
 - O cliente pode se cadastrar no site com seu CPF ou CNPJ
 - O Endereço do cliente irá determinar o valor do frete
 - Um cliente pode comprar mais de um pedido. Este tem um período de carência para devolução do produto
 
-Pedido:
+**Pedido:**
 - O pedidos são criados por clientes e possuem informações de compra, endereço e status da entrega
 - Um produto ou mais compoem o pedido
 - O pedido pode ser cancelado
 
-Fornecedor:
-Estoque:
+**Fornecedor:**
+**Estoque:**
 
-Produto: Localizado acima e à esquerda do centro.
-Estoque: Localizado acima e à direita do centro.
-Cliente: Localizado à esquerda do centro.
-Fornecedor: Localizado à direita e um pouco abaixo do centro.
-Pedido: Localizado abaixo do centro.
-Estoque: 
-Cliente: 
-Fornecedor: 
-Pedido: 
+## Refinando
+Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações
+Pagamento – Pode ter cadastrado mais de uma forma de pagamento
+Entrega – Possui status e código de rastreio
 
-- Classes:
-- Relações:
-- Atributos:
-- 
 | Coluna 1 | Coluna 2 | Coluna 3 |
 | -------- | :------: | -------: |
 | Dado 1   | Dado 2   | Dado 3   |
