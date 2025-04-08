@@ -62,6 +62,8 @@ Um e-commerce é uma marketplace para diferentes vendedores parceiros que vendem
 
 As tabelas propostas para o esquema do banco de dados são: Produto, Cliente, Pedido, Fornecedor, Estoque, Vendedores_Parceiros, Entrega, Item_Pedido, Produto_Vendedor, Endereco, Metodo_Pagamento e Pedido_Pagamento.
 
+![image](https://github.com/user-attachments/assets/928d199c-135d-420f-bf42-5c87c97b4bb5)
+
 ## Análise Aprofundada das Entidades Principais e Atributos
 
 **Produto:**
